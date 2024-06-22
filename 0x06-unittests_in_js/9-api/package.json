@@ -1,0 +1,17 @@
+{
+	"scripts": {
+		"test": "mocha",
+		"check-lint": "npx eslint --fix [0-9]*.js"
+	},
+	"dependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"chai": "^4.3.10",
+		"eslint": "^6.4.0",
+		"eslint-config-airbnb-base": "^14.0.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-jest": "^22.17.0",
+		"mocha": "^10.2.0",
+		"sinon": "^17.0.1"
+	}
+}
